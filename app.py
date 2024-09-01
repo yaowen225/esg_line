@@ -16,7 +16,7 @@ handler = WebhookHandler(CHANNEL_SECRET)
 
 # Dify workflow API URL
 WORKFLOW_API_URL = 'https://api.dify.ai/v1/workflows/run'
-DIFY_API_KEY = 'app-IRo186junshP2lv9bHBZPgul'  
+DIFY_API_KEY = 'app-13f7HYsAGnbMFQ7VWulg1bkK'  
 
 @app.route("/webhook", methods=['POST'])
 def webhook():
